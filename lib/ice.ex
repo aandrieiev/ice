@@ -14,7 +14,7 @@ defmodule ICE do
   def testing_email do
     %Mailman.Email{
       subject: "Hello Mailman!",
-      from: "mailman@elixir.com",
+      from: "dane.balia@hetzner.co.za",
       to: [ "dane.balia@hetzner.co.za" ],
       cc: [ "tiaan.van.deventer@hetzner.co.za" ],
       data: [
