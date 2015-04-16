@@ -16,17 +16,10 @@ defmodule ICE do
       subject: "Hello Mailman!",
       from: "dane.balia@hetzner.co.za",
       to: [ "dane.balia@hetzner.co.za" ],
-      cc: [ "tiaan.van.deventer@hetzner.co.za" ],
       data: [
         name: "Yo"
       ],
-      html: """
-      <html>
-      <body>
-      <b>Hello - Test from Elixir! </b> These are Unicode: qżźół
-      </body>
-      </html>
-      """
+      html: "<html><body><b>Hello - Test from Elixir! </b></body></html>"
     }
   end
 end
