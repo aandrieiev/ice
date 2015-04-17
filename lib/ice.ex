@@ -15,11 +15,12 @@ defmodule ICE do
     %Mailman.Email{
       subject: "Hello Mailman!",
       from: "dane.balia@hetzner.co.za",
-      to: [ "dane.balia@hetzner.co.za" ],
+      to: [ "gw01f@hotmail.com" ],
       data: [
         name: "Yo"
-      ],
-      html: "<html><body><b>Hello - Test from Elixir! </b></body></html>"
+        ],
+      text: "This is a <strong>HTML</strong> message with some non-ascii characters øÿ\r\nso there",
+      html: "This is a <strong>HTML</strong> message with some non-ascii characters øÿ\r\nso there"
     }
   end
 end

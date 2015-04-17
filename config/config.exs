@@ -16,6 +16,7 @@ use Mix.Config
 #       metadata: [:user_id]
 
 config :provider, third_party_mailer: "sendgrid.mail.com"
+config :password, hetzner: "!@hg4R6*9!"
 
 # It is also possible to import configuration files, relative to this
 # directory. For example, you can emulate configuration per environment
